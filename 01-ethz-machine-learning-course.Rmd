@@ -1,7 +1,7 @@
 # ETH Zurich Machine Learning course
 
 * Analogy from biology. Every neuron can fire or not fire. The decision on 
-  whether or not to fire depends on the accummulated weighted potential at 
+  whether or not to fire depends on the accumulated weighted potential at 
   that neuron.
 * You need at least 5-10 samples per estimated parameter.
 * General result: You can approximate *any* continuous function with a three 
