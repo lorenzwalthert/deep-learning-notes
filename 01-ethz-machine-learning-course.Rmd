@@ -1,0 +1,23 @@
+# ETH Zurich Machine Learning course
+
+* Analogy from biology. Every neuron can fire or not fire. The decision on 
+  whether or not to fire depends on the accummulated weighted potential at 
+  that neuron.
+* You need at least 5-10 samples per estimated parameter.
+* General result: You can approximate *any* continuous function with a three 
+  layer neural network. This result is called universal approximation. However, 
+  it does not limit the number of nodes in a layer.
+* Therefore, deep is better than broad. That means it is better to use a *deep* 
+  network (i.e. one with relatively many layers) but not a very *broad* 
+  network (i.e. one with relatively few nodes per layer).
+* You can use neural networks for dimension reduction. Simply restrict the 
+  number of middle layers to the number of dimension you want to reduce the
+  data to and set output = input layer. If patterns are linear, this leads to 
+  PCA.
+* You can use neural nets for denoising, e.g. for images. Just randomly corrupt
+  input data (i.e. black out parts of an image) and feed this into the network
+  while the expected output is the noise-free data (i.e. the picture without
+  any blacked-out segments).
+* Researchers trained neural networks to learn the mapping of words to phonemes
+  in the Nettalk project. Since every phoneme has a sound and the sound is 
+  known, this can be used to translate text into spoken language. 

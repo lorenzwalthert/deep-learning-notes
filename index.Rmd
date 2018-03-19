@@ -1,6 +1,6 @@
 ---
-title: "A Book"
-author: "Frida Gomam"
+title: "Notes on Deep Learning"
+author: "Lorenz Walthert"
 site: bookdown::bookdown_site
 documentclass: book
 output:
@@ -8,10 +8,6 @@ output:
   #bookdown::pdf_book: default
 ---
 
-# Hello World
+# Preface
 
-Hi.
-
-Bye.
-
-<!-- If you need PDF output, uncomment bookdown::pdf_book above in YAML. You will need a LaTeX installation, e.g., https://yihui.name/tinytex/ -->
+This is a random collection of notes on deep learning from various sources.
